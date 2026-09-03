@@ -3,7 +3,7 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 llm = HuggingFaceEndpoint(
     repo_id="meta-llama/Llama-3.1-8B-Instruct",
     task="text-generation",
-    huggingfacehub_api_token="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"
+    huggingfacehub_api_token="paste api key here "
 )
 
 model = ChatHuggingFace(llm=llm)
